@@ -3,29 +3,99 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>The Sonar Team</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="sona.ico">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <body id="homepage">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <main id="MainContainer">
+            <header id="header" class="header">
+                <nav class="nav top-menu__level">
+                    <div class="container">
+                        <div class="nav-left">
+                          <a class="nav-item">
+                            <img src="img/sona-logo.png" alt="Sonar Team Logo">
+                          </a>
+                        </div>
+
+                        <div class="nav-center">
+                          <a class="nav-item">
+                            <span class="icon">
+                              <i class="fa fa-github"></i>
+                            </span>
+                          </a>
+                          <a class="nav-item">
+                            <span class="icon">
+                              <i class="fa fa-twitter"></i>
+                            </span>
+                          </a>
+                          <a class="nav-item">
+                            <span class="icon">
+                              <i class="fa fa-facebook"></i>
+                            </span>
+                          </a>
+                        </div>
+
+                        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+                        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+                        <span class="nav-toggle">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </span>
+
+                        <!-- This "nav-menu" is hidden on mobile -->
+                        <!-- Add the modifier "is-active" to display it on mobile -->
+                        <div class="nav-right nav-menu">
+                          <li class="nav-item active">
+                            <a href="index.html">Trang chủ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="about.html">Giới thiệu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="service.html">Dịch vụ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="contact.html">Liên hệ</a>
+                          </li>
+                        </div>
+                    </div>
+
+                </nav>
+                <div id="particles-js"></div>
+            </header>
+        </main>
+
+
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/particles.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particlesjs.json', function() {
+              console.log('callback - particles.js config loaded');
+            });
+        </script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
