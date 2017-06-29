@@ -5,6 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>The Sonar Team</title>
         <meta name="description" content="">
+        <meta name="keyword" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -13,9 +14,13 @@
 
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/homepage.css">
+        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body id="homepage">
@@ -47,17 +52,6 @@
                             </span>
                           </a>
                         </div>
-
-                        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-                        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-                        <span class="nav-toggle">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </span>
-
-                        <!-- This "nav-menu" is hidden on mobile -->
-                        <!-- Add the modifier "is-active" to display it on mobile -->
                         <div class="nav-right nav-menu">
                           <li class="nav-item active">
                             <a href="index.html">Trang chủ</a>
@@ -80,88 +74,7 @@
                 </nav>
                 <div id="particles-js"></div>
             </header>
-            <!-- Hero Carousel Slides -->
-          	<div class="hero-carousel-wrapper">
-           		<div class="hero-carousel hero-carousel--phone">
-              		<div class="page-width">
-                			<div class="hero-carousel__slides">
-                   			<div class="hero-carousel__slide carousel-item js-was-active">
-
-          						<picture class="hero-carousel__image hero-carousel__image--phone">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						  <source data-srcset="images/photos/img04.1.jpg 1x, images/photos/img04.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img04.2.jpg 1x, images/photos/img04.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img04.3.jpg 1x, images/photos/img04.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-                    			</div>
-                    			<div class="hero-carousel__slide carousel-item js-is-active">
-
-          						<picture class="hero-carousel__image hero-carousel__image--phone ">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						 <source data-srcset="images/photos/img05.1.jpg 1x, images/photos/img05.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img05.2.jpg 1x, images/photos/img05.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img05.3.jpg 1x, images/photos/img05.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-                    			</div>
-                    			<div class="hero-carousel__slide carousel-item">
-
-          						<picture class="hero-carousel__image hero-carousel__image--phone">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						  <source data-srcset="images/photos/img06.1.jpg 1x, images/photos/img06.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img06.2.jpg 1x, images/photos/img06.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img06.3.jpg 1x, images/photos/img06.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-                    			</div>
-                			</div>
-              		</div>
-            		</div>
-
-            		<div class="hero-carousel hero-carousel--laptop">
-          	    	<div class="page-width">
-          	      		<div class="hero-carousel__slides">
-          	          		<div class="hero-carousel__slide carousel-item js-was-active">
-
-          						<picture class="hero-carousel__image hero-carousel__image--laptop js-is-active">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						  <source data-srcset="images/photos/img01.1.jpg 1x, images/photos/img01.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img01.2.jpg 1x, images/photos/img01.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img01.3.jpg 1x, images/photos/img01.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-          	          		</div>
-          	          		<div class="hero-carousel__slide carousel-item js-is-active">
-
-          						<picture class="hero-carousel__image hero-carousel__image--laptop">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						  <source data-srcset="images/photos/img02.1.jpg 1x, images/photos/img02.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img02.2.jpg 1x, images/photos/img02.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img02.3.jpg 1x, images/photos/img02.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-          	          		</div>
-          	          		<div class="hero-carousel__slide carousel-item">
-
-          						<picture class="hero-carousel__image hero-carousel__image--laptop">
-          						  <!--[if IE 9]><video style="display: none;"><![endif]-->
-          						  <source data-srcset="images/photos/img03.1.jpg 1x, images/photos/img03.1.2x.jpg  2x" media="(min-width: 990px)"/>
-          						  <source data-srcset="images/photos/img03.2.jpg 1x, images/photos/img03.2.2x.jpg 2x" media="(min-width: 750px)"/>
-          						  <!--[if IE 9]></video><![endif]-->
-          						  <img data-srcset="images/photos/img03.3.jpg 1x, images/photos/img03.3.2x.jpg 2x" alt="" class="lazyload">
-          						</picture>
-
-          	          		</div>
-          	      		</div>
-          	    	</div>
-          	  	</div>
-          	</div> <!-- End Slides -->
+            
         </main>
 
 
