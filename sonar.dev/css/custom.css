@@ -73,7 +73,8 @@ canvas{
     z-index: 99;
     background-color: transparent;
 }
-.top-menu__level .container{
+.top-menu__level .container,
+footer .container{
     width: 960px;
 }
 .top-menu__level .nav-left{
@@ -100,3 +101,68 @@ canvas{
 .nav-item.active a, .nav-item:hover a {
     border-bottom: 3px solid #18bdd1;
 }
+footer {
+    position: relative;
+}
+.footer-content {
+    background: #ebebeb;
+    padding: 40px 0;
+}
+.footer-content .container::after, .footer-content .container::before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.footer-content .container::after {
+    clear: both;
+}
+.footer-block {
+    float: left;
+    width: 305px;
+    margin: 0 20px 0 0;
+}
+.footer-block.last {
+    margin: 0;
+}
+.bottom-footer {
+    background: #272727;
+    height: 90px;
+    position: relative;
+}
+.bottom-footer::after, .bottom-footer::before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.bottom-footer::after {
+    clear: both;
+}
+.bottom-footer .math-is-real {
+    margin: 18px auto 0;
+    text-align: center;
+    overflow: hidden;
+    display: table;
+}
+.bottom-footer .math-is-real .icon {
+    width: 28px;
+    height: 30px;
+    background: url(../img/math-diamond.png) no-repeat;
+}
+.bottom-footer .math-is-real p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.bottom-footer .copyright {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 30px;
+    line-height: 18px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 30px;
+}
+
+
+
