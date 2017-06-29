@@ -7,6 +7,9 @@ header{
     position: relative;
     z-index: 99;
 }
+#homepage header{
+  height: 700px;
+}
 canvas{
   display:block;
   vertical-align:bottom;
