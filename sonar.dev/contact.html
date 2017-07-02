@@ -6,7 +6,7 @@
         <title>The Sonar Team</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="shortcut icon" href="sona.ico">
         <!-- Place favicon.ico in the root directory -->
@@ -16,9 +16,10 @@
         <link rel="stylesheet" type="text/css" href="css/bulma.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body id="homepage">
+    <body id="contactpage">
 
         <main id="MainContainer">
             <header id="header" class="header">
@@ -50,7 +51,7 @@
 
                         
                         <div class="nav-right nav-menu">
-                          <li class="nav-item active">
+                          <li class="nav-item">
                             <a href="index.html">Trang chủ</a>
                           </li>
                           <li class="nav-item">
@@ -62,87 +63,86 @@
                           <li class="nav-item">
                             <a href="blog.html">Blog</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item active">
                             <a href="contact.html">Liên hệ</a>
                           </li>
                         </div>
                     </div>
 
                 </nav>
-                <div id="particles-js"></div>
+                <div id="hero-background">
+                    <h1>Hãy cho chúng tôi biết yêu cầu của bạn, chúng tôi sẽ tư vấn cho bạn những giải pháp phù hợp</h1>
+                </div>
             </header>
             
-               
-            <section class="social-blurb ng-scope">
-				<div class="container">
-				    <p>
-				      We love hearing from S.D. locals, colleagues in our industry and people like you. Whether you are looking for an awesome job, have a media inquiry, want to partner for an event or just feel like saying “hi,” we always welcome interaction. So, drop us a line. We can’t wait to hear from you.
-				      <br>
-				      <br>
-				      (Oh yeah, be sure to follow us on social media too.)
-				    </p>
-
-				  </div>
-				</div>
-			</section>
-			<div id="googleMap" style="width:400px;height:380px;"></div>
-			
-  
-            <section class="form--section" id="contact-form" class="get-in-touch ng-scope">
-			  <div class="container">
-
-			    <form name="contactForm" class="contact-form ng-pristine ng-invalid ng-invalid-required ng-valid-email">
-
-			  <div class="form-section listing-form-section">
-		
-
-			    <div class="left-side">
-			      <!-- name -->
-			      <div class="form-group" >
-			        <label for="name">Tên bạn là:</label>
-			        <input class="form-text ng-pristine ng-untouched ng-invalid ng-invalid-required" type="text" name="name" required="">
-			      </div>
-			    </div>
-
-			    <div class="right-side">
-
-			      <!-- email -->
-			      <div class="form-group">
-			        <label for="email">Email của bạn: </label>
-			        <input class="form-text ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" type="email" name="email" max-length="30" required="">
-			      </div>
-			    </div>
-
-			  </div>
-
-			<div class="listing-textarea-section">
-			    <div class="form-group">
-			      <label for="subject">Chủ đề liên hệ:</label>
-			      <input type="text" name="subject" max-length="1000" class="ng-pristine ng-untouched ng-valid">
-			    </div>
-			  </div>
-			  <!-- message -->
-			  <div class="listing-textarea-section">
-			    <div class="form-group">
-			      <label for="message">Nội dung liên hệ: </label>
-			      <textarea name="message" max-length="1000" class="ng-pristine ng-untouched ng-valid"></textarea>
-			    </div>
-			  </div>
-
-			  <input class="submit" type="submit" value="GỬI!">
-
-			</form>
-
-			   </div>
-
-			</section>
-
-            	
-            
-            <footer>
               
+            <section class="main-ct">
+            
+      <div class="contact-left">
+          <form action="#" method="post" >
+                <div class="f-group">
+                    <label for="name">Name:</label>
+                    <input class="name-form" size="55" type="text" name="name" required="">
+              </div>
+
+               <div class="f-group">
+                    <label for="email">Email:</label>
+                   <input class="email-form" size="55" type="email" name="email" required="">
+              </div>
+               
+              <div class="f-group">
+                    <label for="email">Company:</label>
+                   <input class="company-form" size="55" type="text" name="company" required="">
+              </div>
+          
+               <div class="f-group">
+                    <label for="phone">Phone:</label>
+                   <input class="phone-form" type="tel" name="phone" required="">
+              </div>
+                   
+                    <div class="f-group">
+                <label for="message">Message:</label>
+                <textarea class="message-form" name="name" placeholder="" required="" rows="5" cols="56"></textarea>
+                        </div>
+                   
+            <input class="submit-form" type="submit" value="Send">
+          </form>
+    </div>
+          <div class="contact-right">
+                <i class="fa fa-phone-square"></i><span>01634635606</span><br>
+              <i class="fa fa-envelope"></i><span>contact@Sonarteam.com</span><br>
+              <i class="fa fa-facebook-official"></i><span>https://www.facebook.com/TheSonarTeam</span><br>
+              <i class="fa fa-map-marker"></i><span>Hòa Minh - Liên Chiểu - Đà Nẵng - Việt Nam</span>
+            </div>
+			
+        
+                </section>
+            <div class="social">
+      <ul>
+        <li><a href="#" target="_blank"><img src="img/github.png" alt="Facebook"></a></li>
+        <li><a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+        <li><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+        <li><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube"></a></li>
+        <li><a href="#" target="_blank"><img src="img/linkedin.png" alt="Linked In"></a></li>
+        <li><a href="#" target="_blank"><img src="img/google.png" alt="Google Plus"></a></li>
+        <li><a href="#" target="_blank"><img src="img/blog.png" alt="Blog"></a></li>
+      </ul>
+    </div>
+            <div class="textmap"><h1>CHÚNG TÔI Ở ĐÂU ?</h1></div>
+            <div id="googleMap" style="width:100%;height:380px;"></div>
+            <footer ng-controller="FooterCtrl" class="ng-scope">
+             
+
+              <div class="bottom-footer">
+
+                <div class="math-is-real">
+                  <div class="icon"></div>
+                  <p>Math is real</p>
+                </div>
+
+                <p class="copyright ng-binding">Copyright © 2017 The Sonar Team.<br> All Rights Reserved.  |  <a ui-sref="policy" href="#">privacy policy</a></p>
+              </div>
             </footer>
-        </main>
 
 
 
@@ -155,13 +155,13 @@
         <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script>
 // khai báo tọa độ của place
-var myCenter=new google.maps.LatLng(21.017324, 105.784054);
+var myCenter=new google.maps.LatLng(16.075815, 108.169970);
 
 function initialize()
 {
 var mapProp = {
   center:myCenter,
-  zoom:5,
+  zoom:17,
   scrollwheel: false,
     navigationControl: false,
     mapTypeControl: false,
