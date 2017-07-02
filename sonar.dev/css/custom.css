@@ -2,6 +2,9 @@ html, body, #MainContainer{
     width: 100%;
     height: 100%;
 }
+body{
+  font-weight: 300;
+}
 header{
     width: 100%;
     position: relative;
@@ -165,6 +168,106 @@ footer {
     text-transform: uppercase;
     top: 30px;
 }
+.logo-footer {
+  width: 200px;
+  height: auto;
+}
+.footer-description {
+  margin-top: 20px;
+  text-align: justify;
+}
 
 
+.item-footer .title-item h4 {
+    font-size: 1.3rem;
+    color: #18bcd0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.item-footer .opening {
+    padding: 3px 0 7px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+.item-footer .opening .title {
+    font-size: 18px;
+    color: #272727;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.item-footer .opening .office {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.item-footer .opening a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #18bcd0;
+}
+.item-footer .opening a:hover{
+  color: #1abc9c;
+}
+.item-footer span{
+  display: block;
+  margin-bottom: 10px;
+}
+.item-footer span i{
+  font-size: 1.5rem;
+  width: 32px;
+  height: 32px;
+}
+.social-links {
+    height: 50px;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+}
+.social-links li {
+    float: left;
+    list-style: outside none none;
+    margin: 0 8px 0 0;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+}
+.social-links .icon .fa{
+  color:  #000;
+  font-size: 1.7rem;
+}
 
+element {
+}
+.page-wrapper h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #272727;
+}
+
+
+#backgroundc .container{
+  width: 100%;
+  height: 100%;
+
+}
+.slogan {
+  top: 50%;
+  position: absolute;
+  padding: 15px 100px;
+    font-size: 35px;
+    text-align: center;
+    background: #1abc9c;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.alert-ct {
+    margin-top: 20px;
+    display: block;
+}

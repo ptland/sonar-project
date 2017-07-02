@@ -22,6 +22,8 @@
         <link rel="stylesheet" type="text/css" href="css/homepage.css">
         
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
     </head>
     <body id="homepage" class="page-wrapper page-home-wrapper">
 
@@ -167,11 +169,11 @@
                       <img src="img/img-team.jpg">
                     </div>      
                     <div class="home-slide-content wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-                      <h1>TCG invests in people</h1>
+                      <h1>TST ĐẦU TƯ VÀO CON NGƯỜI</h1>
                       <p>
-                        We believe that opportunity drives productivity. TCG team members get everything they need to keep learning—and have fun doing it. That means hands-on training, professional development opportunities, NERF battles, tasty snacks, free swag, and more. Check out what makes TCG one of the best places to work in San Diego!
+                        Chúng tôi tin rằng cơ hội tạo ra năng suất. Các thành viên của nhóm TST có được mọi thứ họ cần để tiếp tục học tập và vui chơi. Điều đó có nghĩa là đào tạo thực hành, cơ hội phát triển nghề nghiệp, các trận đánh CS-GO, đồ ăn nhẹ ngon miệng, bơi lội tự do và hơn thế nữa. Sứ mệnh làm cho TST một trong những nơi tốt nhất để làm việc tại Đà Nẵng!
                       </p>
-                      <a ui-sref="careers" href="/careers/">check it out</a>
+                      <a ui-sref="careers" href="about.html">về chúng tôi</a>
                     </div>
                   </div>
                 </div>
@@ -180,33 +182,57 @@
             <footer ng-controller="FooterCtrl" class="ng-scope">
               <section class="footer-content">
                 <div class="container">
-                  <div class="footer-block footer-blog">
-                    
-                  </div>
-
-                  <div class="footer-block footer-jobs">
-                    <h3><a ui-sref="careers" href="/careers/">Current Job Openings</a></h3>
-                    <div class="opening opening1">
-                      <p class="title ng-binding">Sr. Application Developer</p>
-                      <p class="office ng-binding">San Diego</p>
-                      <a  href="#">Apply Now</a>
+                  <div class="columns">
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                          <img class="logo-footer" src="img/logo.png" alt="The Sonar Team">
+                          <div class="footer-description">
+                            <p>The Sonar Team được thành lập năm 2016 với mục tiêu cung cấp cho khách hàng những sản phẩm, dịch vụ đáng tin cậy và hiệu quả.  </p>
+                            <p>Chúng tôi cung cấp các giải pháp phát triển ứng dụng website, xây dựng, mở rộng đội ngũ team năng động tại khu vực Đà Nẵng</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="opening opening2">
-                      <p class="title ng-binding">Finance Manager</p>
-                      <p class="office ng-binding">Little Italy</p>
-                      <a  href="#">Apply Now</a>
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                          <div class="title-item">
+                            <h4>Vị trí ứng tuyển</h4>
+                          </div>
+                          <div class="opening opening1">
+                            <p class="title">PHP Development</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                          <div class="opening opening2">
+                            <p class="title">Front-end Development</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                          <div class="opening opening3">
+                            <p class="title">Design UI/UX Website</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="opening opening3">
-                      <p class="title ng-binding">Digital Media Buyer</p>
-                      <p class="office ng-binding">Little Italy</p>
-                      <a  href="#/">Apply Now</a>
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                           <div class="title-item">
+                            <h4>Thông tin liên hệ</h4>
+                            <div class="contact">
+                              <span><i class="fa fa-phone-square"></i>Hotline: (+84) 916 797 006</span>
+                              <span><i class="fa fa-envelope"></i>Email: info@thesonarteam.com</span>
+                              <span><i class="fa fa-map-marker"></i>Địa chỉ: 04 Phú Lộc 4 - Thanh Khê - TP. Đà Nẵng</span>
+                              <img class="alert-ct" src="img/bo-cong-thuong.png" alt="Đã thông báo bộ công thương">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-
-                  <div class="footer-block last footer-news">
-                    <h3>We're a top workplace</h3>
-                    <img src="assets/img/ut-award.png">
-                    <p>We take pride in our projects and believe in crafting a company culture that rewards innovation and inspires great work. We’ve seen tremendous growth as a company, and we’re pretty thrilled to be a winner of a U-T Top Workplace Award two years in a row!</p>
                   </div>
 
                 </div> <!-- END .footer-content -->
@@ -223,23 +249,17 @@
                 </div>
 
                 <p class="copyright ng-binding">Copyright © 2017 The Sonar Team.<br> All Rights Reserved.  |  <a ui-sref="policy" href="#">privacy policy</a></p>
-                <div class="social">
-                  <div class="icon"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></div>
-                  <div class="icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                  <div class="icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-                  <div class="icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
-                  <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
-                  <div class="icon"><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></div>
-                </div>
+                <ul class="social-links">
+                  <li class="icon"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
+                </ul>
               </div>
             </footer>
         </main>
-
-
-
-
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/particles.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

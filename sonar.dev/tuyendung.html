@@ -175,70 +175,87 @@
                 <input class="submit" type="submit" name="submit" value="Gửi">
                   </form>
             </section>
-            <section class="section-footer">
-              <div class="container">
-                <div class="col-sm-4">
-                  <h3>The Sonar Team</h3><br>
-                  <div class="main-logo"><img src="img/sona-logo.png"></div><br>
-                  <div class="description">
-                    Không có gì quý hơn độc lập tự do
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <h3>Vị trí đang tuyển dụng</h3><br>
-                  <div class="boss">
-                  <div class="ipz">» PHP Developer</div><br>
-                  <span><a href="tuyendung.html">APPLY NOW</a></span>
-                  </div><!--boss-->
-                  <div class="boss">
-                  <div class="ipz">» Frontend Developer</div><br>
-                  <span><a href="tuyendung.html">APPLY NOW</a></span>
-                  </div><!--boss-->
-                  <div class="boss">
-                  <div class="ipz">» Seller</div><br>
-                  <span><a href="tuyendung.html">APPLY NOW</a></span>
-                  </div><!--boss-->
-                </div>
-                <div class="col-sm-4">
-                  <h3>Thông tin liên hệ</h3><br>
-                  <p>» 137 Nguyễn Thị Thập, Thanh Khê</p>
-                  <p>» 0905 306 1997</p>
-                  <p>» info@sonarteam.io</p>
-                </div>
-                <!--facebook-->
-                <div class="col-sm-4">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.9";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-page" data-href="https://www.facebook.com/The-Sonar-Team-1452888478101828/" data-width="316" data-height="150" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/The-Sonar-Team-1452888478101828/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/The-Sonar-Team-1452888478101828/">The Sonar Team</a></blockquote></div>
-
-              </div>
-            </section>
             <footer ng-controller="FooterCtrl" class="ng-scope">
+              <section class="footer-content">
+                <div class="container">
+                  <div class="columns">
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                          <img class="logo-footer" src="img/logo.png" alt="The Sonar Team">
+                          <div class="footer-description">
+                            <p>The Sonar Team được thành lập năm 2016 với mục tiêu cung cấp cho khách hàng những sản phẩm, dịch vụ đáng tin cậy và hiệu quả.  </p>
+                            <p>Chúng tôi cung cấp các giải pháp phát triển ứng dụng website, xây dựng, mở rộng đội ngũ team năng động tại khu vực Đà Nẵng</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                          <div class="title-item">
+                            <h4>Vị trí ứng tuyển</h4>
+                          </div>
+                          <div class="opening opening1">
+                            <p class="title">PHP Development</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                          <div class="opening opening2">
+                            <p class="title">Front-end Development</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                          <div class="opening opening3">
+                            <p class="title">Design UI/UX Website</p>
+                            <p class="office">ĐÀ NẴNG</p>
+                            <a href="tuyendung.html">Apply now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="item-footer">
+                        <div class="item-footer-inner">
+                           <div class="title-item">
+                            <h4>Thông tin liên hệ</h4>
+                            <div class="contact">
+                              <span><i class="fa fa-phone-square"></i>Hotline: (+84) 916 797 006</span>
+                              <span><i class="fa fa-envelope"></i>Email: info@thesonarteam.com</span>
+                              <span><i class="fa fa-map-marker"></i>Địa chỉ: 04 Phú Lộc 4 - Thanh Khê - TP. Đà Nẵng</span>
+                              <img class="alert-ct" src="img/bo-cong-thuong.png" alt="Đã thông báo bộ công thương">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- END .footer-content -->
+
+              </section>
+
               <div class="bottom-footer">
+
+
                 <div class="math-is-real">
                   <div class="icon"></div>
                   <p>Math is real</p>
+
                 </div>
 
                 <p class="copyright ng-binding">Copyright © 2017 The Sonar Team.<br> All Rights Reserved.  |  <a ui-sref="policy" href="#">privacy policy</a></p>
-                <div class="social">
-                <div class="icon"><i class="fa fa-github" aria-hidden="true"></i></div>
-                <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-                <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-                <div class="icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
-                <div class="icon"><i class="fa fa-link" aria-hidden="true"></i></div>
-                <div class="icon"><i class="fa fa-wifi" aria-hidden="true"></i></div>
+                <ul class="social-links">
+                  <li class="icon"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
+                </ul>
               </div>
-              </div>
-              
-            </footer>
-        </main>
+            </footer>        
+            </main>
 
 
 
