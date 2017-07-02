@@ -52,8 +52,8 @@
   background-size: cover;
 }
 .benefits-section .container {
-  max-width: 960px;
-  width: 960px;
+  max-width: 1150px;
+  width: 1150px;
 }
 .benefits-section .container:before,
 .benefits-section .container:after {
@@ -371,16 +371,20 @@
 .service--section .container,
 .section--ok .container,
 .section--okk .container{
-	max-width: 960px;
-	width: 960px;
+	max-width: 1150px;
+	width: 1150px;
 }
 .title-s {
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 30px;
-    font-weight: 400;
+	  font-family: 'Open Sans', Arial, sans-serif;
     line-height: 44px;
     padding-bottom: 15px;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #272727;
 }
 .service--section {
 	padding: 10px;
@@ -443,4 +447,15 @@
 }
 .ip {
 	float: right;
+}
+.customcentered{
+  height: 605px;
+}
+.bootom-footer {
+    background: #272727;
+    height: 90px;
+    position: relative;
+}
+footer {
+  position: relative;
 }
