@@ -26,8 +26,6 @@
 .section-st .container {
 	width: 960px;
 	max-width: 960px;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 .col-md-8 {
 	width: 620px;
@@ -63,68 +61,75 @@ b {
     font-size: 35px;
     vertical-align: baseline;
 }
+h5 {
+	text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #5fb435;
+    padding: 15px 0px;
+}
 .main-logo {
-	background-image: url(../img/darkbg.jpg);
-	text-align: center;
-	padding: 10px;
+  background-image: url(../img/darkbg.jpg);
+  text-align: center;
+  padding: 10px;
 }
 .widget1 {
-	width: 152.5px;
-	height: 62px;
-	float: left;
-	background:#1AC17B;
+  width: 152.5px;
+  height: 62px;
+  float: left;
+  background:#1AC17B;
 }
 .widget2 {
-	width: 152.5px;
-	height: 62px;
-	float: left;
-	background:#56AEE3;
+  width: 152.5px;
+  height: 62px;
+  float: left;
+  background:#56AEE3;
 }
 .widget3 {
-	width: 152.5px;
-	height: 62px;
-	float: left;
-	background:#3FAEA5;
+  width: 152.5px;
+  height: 62px;
+  float: left;
+  background:#3FAEA5;
 }
 .widget4 {
-	width: 152.5px;
-	height: 62px;
-	float: left;
-	background:#E39F3C;
+  width: 152.5px;
+  height: 62px;
+  float: left;
+  background:#E39F3C;
 }
 .widget-item .icon {
     float: left;
-    width: 50px;	
+    width: 50px;
     height: 40px;
     text-align: center;
 }
 .widget-item {
-	position: absolute;
+  position: absolute;
 }
 .widget-item .icon i {
-	font-size: 30px;
-	color: #fff;
-	margin-top: 20px;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 20px;
 }
 .widget-item span {
-	font-size: 14px;
-	font-weight: bold;
-	color: #fff;
-	position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
     margin-top: 10px;
     margin-left: -5px;
 }
 .social {
-	float: right;
-	margin-top: -46px;
+  float: right;
+  margin-top: -46px;
 }
 .social .icon i {
-	font-size: 25px;
-	color: #000;
+  font-size: 25px;
+  color: #000;
 }
 .social .icon {
-	background:#fff;
-	margin-right: 10px;
-	width: 40px;
-	height: 40px;
+  background:#fff;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
 }
