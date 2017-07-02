@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="css/contact.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body id="contactpage">
+    <body id="contactpage" class="page-wrapper">
 
         <main id="MainContainer">
             <header id="header" class="header">
@@ -70,66 +70,90 @@
                     </div>
 
                 </nav>
-                <div id="hero-background">
-                    <h1>Hãy cho chúng tôi biết yêu cầu của bạn, chúng tôi sẽ tư vấn cho bạn những giải pháp phù hợp</h1>
+                <div id="hero-background" class="innerheader">
+                  <div class="container">
+                    <h1>SAY HELLO!</h1>
+                  </div>
                 </div>
             </header>
+            <section class="social-blurb ng-scope">
+              <div class="container">
+                <p>
+                   Cho dù bạn đang tìm kiếm một công việc tuyệt vời, có yêu cầu về truyền thông, muốn hợp tác cho một sự kiện hoặc chỉ muốn nói rằng "hi", chúng tôi luôn hoan nghênh tương tác. Vì vậy, thả chúng tôi một dòng. Chúng tôi không thể chờ đợi để nghe từ bạn.
+                  <br>
+                  <br>
+                  (Oh yeah, hãy nhớ theo chúng tôi trên các mạng xã hội nữa nha!)
+                </p>
+                <div class="social">
+                  <ul>
+                    <li><a href="#" target="_blank"><img src="img/social/github.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="img/social/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="img/social/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#" target="_blank"><img src="img/social/youtube.png" alt="YouTube"></a></li>
+                    <li><a href="#" target="_blank"><img src="img/social/linkedin.png" alt="Linked In"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <div class="textmap"><h2>CHÚNG TÔI Ở ĐÂU ?</h2></div>
+            <div id="googleMap" style="width:100%;height:470px;"></div>
+            <section id="contact-form" class="form--section">
             
-              
-            <section class="main-ct">
-            
-      <div class="contact-left">
-          <form action="#" method="post" >
-                <div class="f-group">
-                    <label for="name">Name:</label>
-                    <input class="name-form" size="55" type="text" name="name" required="">
-              </div>
-
-               <div class="f-group">
-                    <label for="email">Email:</label>
-                   <input class="email-form" size="55" type="email" name="email" required="">
-              </div>
-               
-              <div class="f-group">
-                    <label for="email">Company:</label>
-                   <input class="company-form" size="55" type="text" name="company" required="">
-              </div>
-          
-               <div class="f-group">
-                    <label for="phone">Phone:</label>
-                   <input class="phone-form" type="tel" name="phone" required="">
-              </div>
-                   
-                    <div class="f-group">
-                <label for="message">Message:</label>
-                <textarea class="message-form" name="name" placeholder="" required="" rows="5" cols="56"></textarea>
+              <div class="container">
+                <div>
+                  <p>Hãy liên hệ với chúng tôi !</p>
+                  <div class="ng-isolate-scope">
+                    <form action="#" method="post" class="contact-form">
+                      <div class="form-section listing-form-section">
+                        <div class="left-side">
+                          <div class="form-group">
+                            <label for="name">Bạn đại diện cho công ty nào?</label>
+                            <input class="form-text"  name="nameOfSocialMedium" type="text">
+                          </div>
                         </div>
-                   
-            <input class="submit-form" type="submit" value="Send">
-          </form>
-    </div>
-          <div class="contact-right">
-                <i class="fa fa-phone-square"></i><span>01634635606</span><br>
-              <i class="fa fa-envelope"></i><span>contact@Sonarteam.com</span><br>
-              <i class="fa fa-facebook-official"></i><span>https://www.facebook.com/TheSonarTeam</span><br>
-              <i class="fa fa-map-marker"></i><span>Hòa Minh - Liên Chiểu - Đà Nẵng - Việt Nam</span>
-            </div>
-			
+
+                        <div class="right-side">
+                          <div class="form-group">
+                            <label for="name">Tên bạn là gì?</label>
+                            <input class="form-text" name="name" required="" type="text">
+                          </div>
+                        </div>
+
+                        <div class="left-side">
+                          <div class="form-group">
+                            <label for="phone">Số điện thoại của bạn là?</label>
+                            <input class="form-text" name="phone" required="" type="tel">
+                          </div>
+                        </div>
+
+                        <div class="right-side">
+                          <div class="form-group">
+                            <label for="email">Email của bạn là gì?</label>
+                            <input class="form-text" name="email" max-length="30" required="" type="email">
+                          </div>
+                        </div>
+                        <div class="listing-textarea-section">
+                          <div class="form-group">
+                            <label for="message">Chủ đề liên hệ:</label>
+                            <input class="custom-form-text" name="subject" required="" type="text">
+                          </div>
+                        </div>
+                        <div class="listing-textarea-section">
+                          <div class="form-group">
+                            <label for="message">Nội dung liên hệ </label>
+                            <textarea type="text" name="message" max-length="1000" class="ng-pristine ng-untouched ng-valid"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <input type="submit" value="GỬI">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              
         
-                </section>
-            <div class="social">
-      <ul>
-        <li><a href="#" target="_blank"><img src="img/github.png" alt="Facebook"></a></li>
-        <li><a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
-        <li><a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
-        <li><a href="#" target="_blank"><img src="img/youtube.png" alt="YouTube"></a></li>
-        <li><a href="#" target="_blank"><img src="img/linkedin.png" alt="Linked In"></a></li>
-        <li><a href="#" target="_blank"><img src="img/google.png" alt="Google Plus"></a></li>
-        <li><a href="#" target="_blank"><img src="img/blog.png" alt="Blog"></a></li>
-      </ul>
-    </div>
-            <div class="textmap"><h1>CHÚNG TÔI Ở ĐÂU ?</h1></div>
-            <div id="googleMap" style="width:100%;height:380px;"></div>
+            </section>
+            
             <footer ng-controller="FooterCtrl" class="ng-scope">
               <section class="footer-content">
                 <div class="container">
