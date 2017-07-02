@@ -165,27 +165,6 @@ footer {
     text-transform: uppercase;
     top: 30px;
 }
-.bootom-footer {
-    background: #272727;
-    height: 90px;
-    position: relative;
-}
-footer {
-  position: relative;
-}
-.social {
-  float: right;
-  margin-top: -46px;
-}
-.social .icon i {
-  font-size: 25px;
-  color: #000;
-}
-.social .icon {
-  background:#fff;
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
-}
+
 
 
