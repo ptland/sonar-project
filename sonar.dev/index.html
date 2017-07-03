@@ -28,12 +28,13 @@
     <body id="homepage" class="page-wrapper page-home-wrapper">
 
         <main id="MainContainer">
-            <header id="header" class="header">
-                <nav class="nav top-menu__level">
+            <header id="header" class="header ">
+                <nav id="nav" class="nav top-menu__level header-nav">
                     <div class="container">
                         <div class="nav-left">
-                          <a class="nav-item">
-                            <img src="img/sona-logo.png" alt="Sonar Team Logo">
+                          <a class="nav-item header-logo" href="index.html">
+                            <img class="top-logo" src="img/sona-logo.png" alt="Sonar Team Logo">
+                            <img class="scroll-logo" src="img/dark-logo.png" alt="Sonar Team Logo">
                           </a>
                         </div>
 
@@ -98,33 +99,33 @@
               </div>
               <div class="info-sliders">
                 <div class="container">
-                  <div class="info-slide">        
-                    <img class="slide-left wow fadeInLeft animated" src="img/stat-1.png" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="info-text it-1 slide-left wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                  <div class="info-slide info-slide1">        
+                    <img class="slide-left wow" src="img/stat-1.png" style="opacity: 0">
+                    <div class="info-text it-1 slide-left wow" style="opacity: 0">
                       <h5>Chúng tôi đã viết</h5>
                       <h4>1,455,456 dòng</h4>
                       <h5> mã lệnh</h5>
                     </div>        
                   </div>
-                  <div class="info-slide">        
-                    <img class="slide-right wow fadeInRight animated" src="img/stat-3.png" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="info-text it-2 slide-right wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                  <div class="info-slide info-slide2">        
+                    <img class="slide-right wow" src="img/stat-3.png" style="opacity: 0;">
+                    <div class="info-text it-2 slide-right wow" style="opacity: 0;">
                       <h5>Chúng tôi đã hoàn thành</h5>
                       <h4>54 Project</h4>
                       <h5>thiết kế web</h5>
                     </div>      
                   </div>
-                  <div class="info-slide">        
-                    <img class="slide-left wow fadeInRight animated" src="img/stat-5.png" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="info-text it-3 slide-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                  <div class="info-slide info-slide3">        
+                    <img class="slide-left wow" src="img/stat-5.png" style="opacity: 0">
+                    <div class="info-text it-3 slide-left wow" style="opacity: 0;">
                       <h5>Chúng tôi đã dựng</h5>
                       <h4>26 Shop Online</h4>
                       <h5>năm 2016</h5>
                     </div>      
                   </div>
-                  <div class="info-slide">        
-                    <img class="slide-right wow fadeInRight animated" src="img/stat-4.png" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="info-text it-4 slide-right wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                  <div class="info-slide info-slide4">        
+                    <img class="slide-right wow" src="img/stat-4.png" style="opacity: 0">
+                    <div class="info-text it-4 slide-right wow" style="opacity: 0">
                       <h5>Chúng tôi đã chạy</h5>
                       <h4>450 bài kiểm thử</h4>
                       <h5>với 980 biến</h5>
@@ -135,15 +136,15 @@
               <div class="products ng-scope">
                 <div class="container">
                   <h2>Một số project chúng tôi đã thực hiện</h2>
-                  <div class="product wow bounceInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: bounceInUp;">
+                  <div class="product wow" style="opacity: 1; animation-duration: 2s; ">
                     <img src="img/icm.jpg" alt="Voice Cloud">
                     <h3>Voice Cloud - VoiP Solution</h3>
                     <p>
                      Website quảng cáo sản phẩm, dịch vụ, giải pháp tổng đài VoiP chuyên nghiệp cho doanh nghiệp.
                     </p>
-                    <a href="/instant-checkmate/">Chi tiết</a>
+                    <a href="service.html">Chi tiết</a>
                   </div>
-                  <div class="product wow bounceInUp animated" data-wow-duration="0.8s" style="visibility: visible; animation-duration: 0.8s; animation-name: bounceInUp;">
+                  <div class="product wow" style="opacity: 1; animation-duration: 0.8s;">
                     <img src="img/rpl.jpg" alt="Reverse Phone">
                     <h3>Dana Shop Online</h3>
                     <p>
@@ -151,7 +152,7 @@
                     </p>
                     <a href="service.html">Chi tiết</a>
                   </div>
-                  <div class="product wow bounceInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: bounceInUp;">
+                  <div class="product wow" style="opacity: 1; animation-duration: 2s; ">
                     <img src="img/nextgen.jpg" alt="First Quote Health">
                     <h3>ABC Kid Gardern</h3>
                     <p>
@@ -250,10 +251,10 @@
 
                 <p class="copyright ng-binding">Copyright © 2017 The Sonar Team.<br> All Rights Reserved.  |  <a ui-sref="policy" href="#">privacy policy</a></p>
                 <ul class="social-links">
-                  <li class="icon"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://github.com/ptland/sonar-project" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://www.facebook.com/The-Sonar-Team-1452888478101828/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://www.youtube.com/channel/UCPorhzl_kwhQMZVuz69u8Rg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                   <li class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                   <li class="icon"><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
                 </ul>

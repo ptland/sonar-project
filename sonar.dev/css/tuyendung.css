@@ -177,6 +177,7 @@ textarea {
 	border: 3px solid #989898;
     color: #272727;
     box-shadow: 0 0 0 0 #000;
+    width: 100%;
 }
 .contact-form .container:before,
 .contact-form .container:after {

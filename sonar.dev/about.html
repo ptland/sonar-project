@@ -24,11 +24,12 @@
 
         <main id="MainContainer">
             <header id="header" class="header">
-                <nav class="nav top-menu__level">
+                <nav id="nav" class="nav top-menu__level header-nav">
                     <div class="container">
                         <div class="nav-left">
-                          <a class="nav-item">
-                            <img src="img/sona-logo.png" alt="Sonar Team Logo">
+                          <a class="nav-item header-logo" href="index.html">
+                            <img class="top-logo" src="img/sona-logo.png" alt="Sonar Team Logo">
+                            <img class="scroll-logo" src="img/dark-logo.png" alt="Sonar Team Logo">
                           </a>
                         </div>
 
@@ -49,17 +50,6 @@
                             </span>
                           </a>
                         </div>
-
-                        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-                        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-                        <span class="nav-toggle">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </span>
-
-                        <!-- This "nav-menu" is hidden on mobile -->
-                        <!-- Add the modifier "is-active" to display it on mobile -->
                         <div class="nav-right nav-menu">
                           <li class="nav-item">
                             <a href="index.html">Trang chủ</a>
@@ -278,10 +268,10 @@
 
                 <p class="copyright ng-binding">Copyright © 2017 The Sonar Team.<br> All Rights Reserved.  |  <a ui-sref="policy" href="#">privacy policy</a></p>
                 <ul class="social-links">
-                  <li class="icon"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li class="icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://github.com/ptland/sonar-project" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://www.facebook.com/The-Sonar-Team-1452888478101828/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="icon"><a href="https://www.youtube.com/channel/UCPorhzl_kwhQMZVuz69u8Rg" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                   <li class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                   <li class="icon"><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
                 </ul>
